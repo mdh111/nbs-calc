@@ -27,4 +27,11 @@ public class CalculatorTest {
 		Assert.assertEquals(16, result);
 	}
 	
+	@Test
+	public void DivideTwoNumbersTest() {
+		Calculator calculator = new Calculator();
+		double result = calculator.divide(7,2);
+		Assert.assertEquals(3.5, result, 0.01);
+	}
+	
 }
