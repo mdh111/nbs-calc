@@ -19,5 +19,12 @@ public class CalculatorTest {
 		int result = calculator.subtract(6,1);
 		Assert.assertEquals(5, result);
 	}
-
+	
+	@Test
+	public void MultiplyTwoNumbersTest() {
+		Calculator calculator = new Calculator();
+		int result = calculator.multiply(2,8);
+		Assert.assertEquals(16, result);
+	}
+	
 }
